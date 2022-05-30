@@ -4,13 +4,6 @@ use CodeIgniter\Model;
 use \App\Models\DataAccess;
 use \App\Models\Tools;
 
-/**
- * Class ActionsVisiteur
- *
- * Modèle comportant les fonctions nécessaire au bon déroulement des fiches de frais de chaque visiteur.
- * Extend this class in any new controllers:
- * 
- */
 class ActionsVisiteur extends Model {
 
 	private $dao;

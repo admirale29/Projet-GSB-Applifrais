@@ -53,7 +53,7 @@
 			 function confirmPrompt(idVisiteur, mois){
 				var commentaire = prompt('Motif du refus ?',);
 
-			 	if(commentaire){
+			 	if(commentaire ){
 			 		if(confirm('Confirmer le refus ? Motif : ' + commentaire)){
 			 			window.location.href = 'refuserFiche/' + idVisiteur + '/' + mois + '/' + commentaire;
 			 		}
